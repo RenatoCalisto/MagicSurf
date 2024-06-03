@@ -4586,7 +4586,7 @@ input[type="button"].btn-block {
   margin-left: -1px;
   line-height: 1.25;
   color: #rgb(143, 210, 244);
-  background-color: #fff;
+  background-color: #527a20;
   border: 1px solid #dee2e6;
 }
 
@@ -9792,3 +9792,16 @@ iframe {
   height: 450px;
   border: 0;
 }
+
+.whatsapp-btn {
+  position: fixed;
+  right: 20px;  /* Espaço do lado direito da tela */
+  bottom: 20px; /* Espaço do fundo da tela */
+  z-index: 1000; /* Garante que o botão fique sobre outros elementos da página */
+}
+
+.whatsapp-btn img {
+  width: 60px;  /* Tamanho do ícone */
+  height: auto; /* Mantém a proporção do ícone */
+}
+
